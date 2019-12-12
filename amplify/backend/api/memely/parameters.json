@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "memely",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authmemely1468e3c4",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

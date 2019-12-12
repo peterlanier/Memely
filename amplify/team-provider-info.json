@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "memely-dev-20191212115545-authRole",
+            "UnauthRoleArn": "arn:aws:iam::027162315799:role/memely-dev-20191212115545-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::027162315799:role/memely-dev-20191212115545-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "memely-dev-20191212115545-deployment",
+            "UnauthRoleName": "memely-dev-20191212115545-unauthRole",
+            "StackName": "memely-dev-20191212115545",
+            "StackId": "arn:aws:cloudformation:us-east-1:027162315799:stack/memely-dev-20191212115545/3dcf4220-1d00-11ea-89ca-0a59ae10838a"
+        },
+        "categories": {
+            "auth": {
+                "memely1468e3c4": {}
+            }
+        }
+    }
+}
